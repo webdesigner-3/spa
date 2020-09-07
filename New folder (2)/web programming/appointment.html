@@ -1,0 +1,65 @@
+<html>
+  <head>
+  <style>
+    *{
+	  margin:0;
+	  padding:0;
+	  box-sizing:border-box;
+	  outline:none;
+	  font-family:sans-serif;
+	  }
+	  body{
+	  background:url(ground.jpg) no-repeat top center;
+	  background-size:cover;
+	  heigth:100vh;
+	  }
+	  .wrapper{
+	  position:absolute;
+	  top:50%;
+	  transform:translateY(-50%);
+	  width:100%;
+	  padding:0 20px;
+	  }
+	  .contact-form{
+	  max-width:550px;
+	  margin:0 auto;
+	  background:linear-gradient(to bottom, #ffcccc 0%, #ffff66 100%);
+	  padding:30px;
+	  border-radius:5px;
+	  display:flex;
+      box-shadow:0 0 10px rgba(0,0,0,0.13);	  
+	}
+	 .input-fields{
+	   display:flex;
+	   flex-direction:column;
+	   margin-right:4%;
+	   }
+	   .btn{
+			  background:#aa55cc;
+			  text-align:center;
+			  padding:15px;
+			  border-radius:5px;
+			  color:#fff;
+			  cursor:pointer;
+			  text-transform:uppercase;
+			  }
+			  		  
+	  </style>
+    <title> Appointment Form</title>
+  </head>
+    <body>
+	  <div class="wrapper">
+	    <div class="contact-form">
+		  <div class="input-fields">
+		    <input type="text" class="input" placeholder="name">
+			<input type=radio class="input" name=sex>Male
+            <input type=radio class="input" name=sex>Female
+			<input type="text" class="input" placeholder="Email Address">
+			<input type="text" class="input" placeholder="phone">
+			<input type="text" class="input" placeholder="subject">
+			</div>
+			 <div class="btn">send</div>
+			  </div>
+	</div>
+	</body>
+	</html>

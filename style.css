@@ -1,0 +1,116 @@
+*
+ {
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+ }
+  body
+  {
+  background-size:cover;
+  background-position:center;
+  font-family:sans-serif;
+  background: linear-gradient(to bottom, #ffffff 0%, #00ffff 100%); 
+  }
+ .logo marquee{
+	  background:linear-gradient(to bottom, #ffffcc 0%, #ffffff 86%);
+ }
+  .menu-bar
+  {
+	   background:linear-gradient(to bottom, #0099ff 0%, #66ffff 100%);
+	   text-align:center;
+  }
+  .menu-bar ul
+  {
+	   display:inline-flex;
+	   list-style:none;
+	  color:black;
+  }
+   .menu-bar ul li
+   {
+	   width:120px;
+	   margin:10px;
+	   padding:10px;
+   }
+   .menu-bar ul li a
+   {
+	   text-decoration:none;
+	   color:black;
+   }
+   
+   .active,.menu-bar ul li:hover
+   {
+	
+     background:linear-gradient(to bottom, #ffccff 0%, #ffffcc 100%);
+      border-radius:3px;
+   }	  
+	 .sub-menu-1
+	 {
+		 display:none;
+	 }
+	  .menu-bar ul li:hover .sub-menu-1
+	  {
+		  display:block;
+		  position:absolute;
+		  background:linear-gradient(to bottom, #0066ff 0%, #ffffcc 100%);
+		  margin-top:15px;
+		  margin-left:1px;
+	  }
+	   .menu-bar ul li:hover .sub-menu-1 ul
+	   {
+		   display:block;
+		   margin:10px;
+	   }
+	     .menu-bar ul li:hover .sub-menu-1 ul li
+		 {
+			 width:150px;
+			 padding:10px;
+			 border-bottom:1px dotted #fff;
+			 background:transparent;
+			 border-radius:0;
+			 text-align:left;
+		 }
+	  .menu-bar ul li:hover .sub-menu-1 ul li:last-child
+	  {
+		  border:none;
+	  }
+	  .menu-bar ul li:hover .sub-menu-1 ul li a:hover
+	  {
+		  color:red;
+	  }
+	 .sub-menu-2
+	 {
+		 display:none;
+	 }
+	  .hover-me:hover .sub-menu-2
+	  {
+		  position:absolute;
+		  display:block;
+		  margin-top:-40px;
+		  margin-left:130px;
+		  background:linear-gradient(to bottom, #0066ff 0%, #ffffcc 100%);
+	  }
+	  
+	 
+	  .inner{
+		  color:black;
+		  font-size:20px;
+		  position:absolute;
+		  top:80%;
+		  left:50%;
+		  padding-right:140px;
+		  transform:translate(-0%,-70%);
+		  
+	  }
+	
+	.footer.container
+	{
+		
+		margin:auto;
+		
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		flex-wrap:wrap-reverse;
+		
+	}
+	
